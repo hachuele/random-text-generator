@@ -1,4 +1,4 @@
-# Random Text Generator (Markov-)
+# Random Text Generator
 
 In this assignment, I wrote a program that writes essays "automatically" (i.e. generates random text).  To make the result sound more like real English, than say just choosing random words from the dictionary, the program uses some sample texts (under the `data` folder) to give us information about likely words and word sequences.
 
@@ -21,6 +21,6 @@ The following is the sample format for a run of the program,
 java GenText [-d] prefixLength numWords sourceFile outFile
 ```
 
-which generates **numWords** words of **prefixLength-order** text using **sourceFile** as the source document. The generated words are written to **outFile** (not the console). The square brackets ([]) above denote optional arguments to your program (the square brackets themselves are not part of the command line). You have one optional argument here, "-d", the presence of which means the program will be run in debugging mode.
+which generates **numWords** words of **prefixLength-order** text using **sourceFile** as the source document. The generated words are written to **outFile** (not the console). The square brackets ([]) above denote optional arguments to the program (the square brackets themselves are not part of the command line). You have one optional argument here, "-d", the presence of which means the program will be run in debugging mode.
 
 
